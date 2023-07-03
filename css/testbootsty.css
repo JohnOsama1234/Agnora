@@ -1,0 +1,105 @@
+:root {
+    --m-c: #f25454;
+    --b:#282828;
+    --g:#999;
+    --d:#666;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav */
+nav .nav-link:hover {
+    color: var(--m-c);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: var(--m-c);
+}
+.navbar .navbar-nav>li>a{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: transparent !important;
+}
+.navbar-expand-md .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    margin-left: 415px;
+}
+
+
+
+
+/* header */
+header {
+    background-image: url(../images/slideshow-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 70px;
+}
+
+
+
+/* title */
+.title{
+    color:var(--g);
+}
+.main{
+    font-size: 70px;
+}
+.back-style{
+    font-size: 70px;
+    padding-top: 40px;
+}
+
+/* about */
+.about-left-side p{ 
+    color: var(--d);
+    font-size: 14px;
+}
+
+
+/* services */
+.services{
+    background-color: #fcfcfc;
+}
+
+.icon-team h3:hover{
+    color: var(--m-c);
+    cursor: pointer;
+}
+
+
+/* get */
+.get{
+    background-color: #fcfcfc;
+}
+/* footer */
+.footer{
+    background-color: rgb(34, 34, 34);
+}
+.footer p{
+    color: var(--g);
+}
+.c{
+    color: var(--g);
+}
+
+
